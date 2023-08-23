@@ -1,6 +1,6 @@
 resource "local_file" "My-family"{
-    filename = var.filename
-       content = var.content
+    filename = "family.txt"
+       content = " I LOve Family"
 
        }
 
